@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backgroundPrimary" format="color" />
+    <attr name="backgroundSecond" format="color" />
+
+    <attr name="textPrimary" format="color" />
+    <attr name="textSecond" format="color" />
+    <attr name="textDisabled" format="color" />
+    <attr name="textError" format="color" />
+
+    <attr name="iconActive" format="color" /> <!-- Dark 87% of #000000-->
+    <attr name="iconInactive" format="color" /> <!-- Dark 60% of #000000-->
+    <attr name="iconDisabled" format="color" /> <!-- Dark 38% of #000000-->
+
+    <attr name="selectableItemBottomNavigation" format="color" />
+    <attr name="unSelectableItemBottomNavigation" format="color" />
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Multiple Themes</string>
+    <string name="account">Account</string>
+    <string name="account_info">Account Info</string>
+
+    <string name="button">Button</string>
+
+    <string name="disabled">Disabled</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="error">Error</string>
+    <string name="email">Email</string>
+    <string name="edit">Edit</string>
+    <string name="english">English</string>
+
+    <string name="first_name">First Name</string>
+
+    <string name="high_emphasis">High emphasis</string>
+
+    <string name="input">Input</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="language">Language</string>
+
+    <string name="medium_emphasis">Medium emphasis</string>
+
+    <string name="night_mode">Night Mode</string>
+
+    <string name="profile">Profile</string>
+
+    <string name="setting">Setting</string>
+
+    <string name="text_types">Text types</string>
+    <string name="theme">Theme</string>
+    <string name="thailand">Thailand</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

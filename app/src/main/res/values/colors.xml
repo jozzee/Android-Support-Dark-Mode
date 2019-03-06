@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E2F33</color>
+    <color name="colorPrimaryDark">#1C1C1C</color>
+    <color name="colorAccent">#FB6E60</color>
+
+    <color name="line_dark">#DADCE0</color>
+    <color name="dividers_dark">#1C000000</color>
+
+    <color name="bg_primary_dark">#303030</color>
+    <color name="bg_primary_light">@android:color/white</color>
+
+    <color name="bg_second_dark">#444444</color>
+    <color name="bg_second_light">#F8F8F8</color>
+
+    <color name="text_primary_dark">#DE000000</color>
+    <color name="text_primary_white">@android:color/white</color>
+
+    <color name="text_second_dark">#99000000</color>
+    <color name="text_second_white">#B3FFFFFF</color>
+
+    <color name="text_disable_dark">#61000000</color>
+    <color name="text_disable_white">#80FFFFFF</color>
+
+    <color name="text_error_dark">#B00020</color>
+    <color name="text_error_light">#B00020</color>
+
+    <color name="icon_active_dark">#DE000000</color>
+    <color name="icon_inactive_dark">#99000000</color>
+    <color name="icon_disabled_dark">#61000000</color>
+
+    <color name="icon_active_light">@android:color/white</color>
+    <color name="icon_inactive_light">#B3FFFFFF</color>
+    <color name="icon_disabled_light">#80FFFFFF</color>
+
+
+</resources>

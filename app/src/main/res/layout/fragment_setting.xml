@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundPrimary"
+    tools:context=".SettingFragment">
+
+    <TextView
+        android:id="@+id/theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_24dp"
+        android:layout_marginTop="@dimen/space_32dp"
+        android:layout_marginEnd="@dimen/space_24dp"
+        android:maxLines="1"
+        android:text="@string/theme"
+        android:textColor="?textSecond"
+        android:textSize="@dimen/text_appearance_head_line_6" />
+
+    <TextView
+        android:id="@+id/dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_48dp"
+        android:layout_below="@+id/theme"
+        android:layout_marginStart="@dimen/space_24dp"
+        android:layout_marginTop="@dimen/space_8dp"
+        android:layout_marginEnd="@dimen/space_24dp"
+        android:background="@drawable/bg_rounded"
+        android:drawableStart="@drawable/ic_brightness"
+        android:drawablePadding="@dimen/space_16dp"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/space_16dp"
+        android:paddingEnd="@dimen/space_16dp"
+        android:text="@string/dark_mode"
+        android:textColor="?textSecond"
+        android:textSize="@dimen/text_appearance_body_1" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_night_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dark_mode"
+        android:layout_alignBottom="@+id/dark_mode"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/space_40dp" />
+
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dark_mode"
+        android:layout_marginStart="@dimen/space_24dp"
+        android:layout_marginTop="@dimen/space_32dp"
+        android:layout_marginEnd="@dimen/space_24dp"
+        android:maxLines="1"
+        android:text="@string/language"
+        android:textColor="?textSecond"
+        android:textSize="@dimen/text_appearance_head_line_6" />
+
+    <TextView
+        android:id="@+id/current_language"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_48dp"
+        android:layout_below="@+id/language"
+        android:layout_marginStart="@dimen/space_24dp"
+        android:layout_marginTop="@dimen/space_8dp"
+        android:layout_marginEnd="@dimen/space_24dp"
+        android:background="@drawable/bg_rounded"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_language"
+        android:drawableEnd="@drawable/ic_arrow_drop_down"
+        android:drawablePadding="@dimen/space_16dp"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/space_16dp"
+        android:paddingEnd="@dimen/space_16dp"
+        android:text="@string/english"
+        android:textColor="?textSecond"
+        android:textSize="@dimen/text_appearance_body_1" />
+</RelativeLayout>

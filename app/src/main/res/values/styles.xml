@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="backgroundPrimary">@color/bg_primary_light</item>
+        <item name="backgroundSecond">@color/bg_second_light</item>
+
+        <item name="textPrimary">@color/text_primary_dark</item>
+        <item name="textSecond">@color/text_second_dark</item>
+        <item name="textDisabled">@color/text_disable_dark</item>
+        <item name="textError">@color/text_error_dark</item>
+
+        <item name="iconActive">@color/icon_active_dark</item>
+        <item name="iconInactive">@color/icon_inactive_dark</item>
+        <item name="iconDisabled">@color/icon_disabled_dark</item>
+
+        <item name="selectableItemBottomNavigation">@color/colorAccent</item>
+        <item name="unSelectableItemBottomNavigation">@color/text_disable_dark</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="backgroundPrimary">@color/bg_primary_dark</item>
+        <item name="backgroundSecond">@color/bg_second_dark</item>
+
+        <item name="textPrimary">@color/text_primary_white</item>
+        <item name="textSecond">@color/text_second_white</item>
+        <item name="textDisabled">@color/text_disable_white</item>
+        <item name="textError">@color/text_error_light</item>
+
+        <item name="iconActive">@color/icon_active_light</item>
+        <item name="iconInactive">@color/icon_inactive_light</item>
+        <item name="iconDisabled">@color/icon_disabled_light</item>
+
+        <item name="selectableItemBottomNavigation">@color/text_primary_white</item>
+        <item name="unSelectableItemBottomNavigation">@color/text_disable_white</item>
+
+    </style>
+
+    <style name="TextTitle">
+
+    </style>
+
+
+</resources>
