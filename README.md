@@ -1,2 +1,2 @@
 # Android-Support-Dark-Mode
-Simple project a support dark mode
+Simple android project a support dark mode
